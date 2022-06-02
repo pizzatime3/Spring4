@@ -7,14 +7,14 @@
 
 
         <!--사용자정의css호출 : 기본 불러오기 위치가 static부터 시작-->
-        <link rel="stylesheet" th:href="/main.css">[o]
-
+        <link rel="stylesheet" href="/main.css">
+    <!-- <link rel="stylesheet" th:href="@{/css/main.css"}> -->
 </head>
 <body>
-
     <h3>헤더</h3>
-    <!--사용자정의 js호출-->
-    <script src="../main.js"></script>
-    <script th:src="../"
+    <!-- 제이쿼리cdn -->
+    <script  src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <!-- 자용자정의 js -->
+    <script src="/main.js"></script>
 </body>
 </html>

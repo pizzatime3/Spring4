@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class Index {
     
 
-    @GetMapping("/")    //@GetMapping : URL 매핑 어노테이션 [ 클라이언트가 요청한 url 과 연결 ]//jsp 할때 WebServlet("/")과 유사함
+    @GetMapping("/main")    //@GetMapping : URL 매핑 어노테이션 [ 클라이언트가 요청한 url 과 연결 ]//jsp 할때 WebServlet("/")과 유사함
     public String index(Model model){//해당메소드는 url과 매핑되면 실행되는 메소드
 
         //view에 보내고자하는 데이터 설정
